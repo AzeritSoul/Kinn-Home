@@ -1,0 +1,50 @@
+.banner>.img_background {
+    background: url(../img/banner.png) no-repeat;
+    width: auto;
+    width: 1328px;
+    height: 700px;
+}
+
+.img_background>.prev_banner {
+    color: var(--color2);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    height: 100%;
+    margin-right: 64px;
+    padding-bottom: 64px;
+}
+
+.img_background>.prev_banner,
+.shop_banner>h3 {
+    font-size: 20px;
+    line-height: 21px;
+}
+
+.img_background>.prev_banner,
+.shop_banner>h2 {
+    font-size: 45px;
+    line-height: 60px;
+}
+
+.img_background>.prev_banner>.button {
+    font-size: 20px;
+    max-width: 154px;
+    height: 56px;
+    background: var(--color2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--bs-white);
+}
+.banner>.shop_background {
+    background: url(../img/Shop_banner.png) no-repeat;
+    width: auto;
+    width: 1328px;
+    height: 700px;
+}
+.shop_banner>h2 {
+    font-size: 50px;
+    line-height: 60px;
+}

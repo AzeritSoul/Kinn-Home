@@ -1,0 +1,31 @@
+.choose_button>div:hover {
+    color: var(--bs-teal);
+
+}
+
+.nav_content:hover {
+    color: var(--bs-teal);
+
+}
+
+i:hover {
+    color: var(--bs-teal);
+
+}
+
+.img_background>div>.button:hover {
+    background: var(--color1);
+    color: var(--color2);
+}
+.sub_button:hover {
+    background: var(--color2);
+    color: var(--color1);
+}
+.price_plate>div:hover {
+    box-shadow: 5px 5px 5px 5px #888888;
+    transition: 1s;
+    border-radius: 10px;
+}
+.footer_nav>div:hover {
+    color: var(--bs-teal);
+}

@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+@import url(/css/hover.css);
+@import url(/css/img_background.css);
+@import url(/css/blocks.css);
+
+h2,
+h3,
+figcaption,
+p {
+    color: var(--color2);
+}
+
+hr {
+    margin: 0;
+    background: var(--color2);
+    color: var(--color2);
+}
+
+:root {
+    --color1: #FFFFEF;
+    --color2: #56593D;
+}
+
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.header_line {
+    max-width: 1424px;
+    height: 16px;
+    background: var(--color1);
+    margin: 0 auto;
+}
+
+.top_nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+.text_bar {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.nav_content {
+    margin-left: 38px;
+    max-width: 1424px;
+    font-size: 22px;
+    line-height: 24px;
+    color: #56593D;
+}
+.nav_content>i {
+    font-size: 15px;
+}
+
+.nav_img {
+    margin-left: 135px;
+    max-height: 26px;
+
+}
+
+.user_bar>i {
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+.banner {
+    width: 1360px;
+    height: 732px;
+    background: var(--color1);
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.shop_content {
+    width: 1360px;
+    height: 732px;
+    background: var(--color1);
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+main {
+    margin-top: 94px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+main>h2 {
+    font-size: 57px;
+    line-height: 81px;
+
+}
+
+main>div {
+    display: flex;
+    flex-direction: row;
+}
+
+.choose_button {
+    color: var(--color2);
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 100px;
+}
+
+.choose_button>div {
+    margin-right: 75px;
+}
+
+.shop_content {
+    display: flex;
+    flex-direction: column;
+}
+
+.shop_content>h2 {
+    margin-bottom: 80px;
+}
+
+.price_plate {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.price_plate>div {
+    margin: 32px;
+    border-radius: 10px;
+}
+
+figcaption {
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.sub {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.sub>input {
+    width: 339px;
+}
+
+.sub_button {
+    height: 22px;
+    width: 144px;
+    color: var(--bs-white);
+    background: var(--color2);
+}
+
+.moment_plate>img {
+    padding-right: 8px;
+}
+
+footer {
+    width: 1424px;
+    height: 382px;
+    background: #717353;
+    color: var(--bs-white);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer>.text_block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 900px;
+    height: 220px;
+}
+
+.about_compani>p {
+    margin-left: 32px;
+    padding-bottom: 15px;
+    font-size: 17px;
+    line-height: 25px;
+    margin-top: 18px;
+    color: var(--bs-white);
+    margin-left: 0;
+}
+.footer_border_line {
+    border: none;
+    color: var(--color1);
+    background-color: var(--color1);
+    height: 3px;
+}
+
+.footer_nav {
+    text-transform: uppercase;
+    display: grid;
+    row-gap: 20px;
+}
+.down_arrow {
+    color: #000;
+}
+.icon_block {
+    font-size: 25px;
+    color: #000;
+    display: flex;
+    height: 220px;
+}
